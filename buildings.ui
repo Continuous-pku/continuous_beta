@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buildings</class>
+ <widget class="QWidget" name="buildings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#buildings{
+	border-image: url(:/new/pics/resouce/buildings/building_choice.png);
+}
+#cover{
+	background-color: rgb(31, 78, 121);
+}</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>256</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#treeWidget{
+}</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>建筑升级</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>31</red>
+      <green>78</green>
+      <blue>121</blue>
+     </color>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>学生宿舍</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>1号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>32号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>33号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>34号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>35号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>36号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>37号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>39号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>40号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>41号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>42号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>43号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>44号宿舍楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>45号宿舍楼</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>食堂</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>农园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>艺院食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>家园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>勺园食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学一食堂</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学五食堂</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>第一教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第三教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>理科教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>文史楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>地学楼</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>校医院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五四操场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五四体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>邱徳拔体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>未名湖</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>理科实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学校校门</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>东门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>西南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>东南门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>东北门</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+  <widget class="QLabel" name="cover">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>0</y>
+     <width>61</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainw</class>
+ <widget class="QWidget" name="mainw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1056</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#mainw{
+	border-image: url(:/new/pics/resouce/main.png);
+}
+#label{
+	border-image: url(:/new/pics/resouce/red_bar.jpg);
+}
+#pushButton
+{
+    border-image:url(:/new/pics/resouce/next_day.png);
+}
+#pushButton:hover
+{
+	border-image: url(:/new/pics/resouce/next_day_click.png);
+}
+#pushButton:pressed
+{
+	border-image: url(:/new/pics/resouce/next_day_press.png);
+}
+#exit{
+	border-image: url(:/new/pics/resouce/exit_.png);
+}
+#exit:hover{
+	border-image: url(:/new/pics/resouce/exit__click.png);
+}
+#menu_{
+	border-image: url(:/new/pics/resouce/menu_.png);
+}
+#menu_:hover{
+	border-image: url(:/new/pics/resouce/menu_click.png);
+}
+#pc{
+	border-image: url(:/new/pics/resouce/p_c.png);
+}
+#pc:hover{
+	border-image: url(:/new/pics/resouce/p_c_click.png);
+}
+#bu{
+	border-image: url(:/new/pics/resouce/b_u_origin.png);
+}
+#bu:hover{
+	border-image: url(:/new/pics/resouce/b_u.png);
+}
+#info_dia{
+	border-image: url(:/new/pics/resouce/infos.png);
+}
+#label_2{
+	background-color: rgba(255, 255, 255, 0);
+}
+#back{
+	border-image: url(:/new/pics/resouce/notice.png);
+}
+#slog_{
+	border-image: url(:/new/pics/resouce/slog.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>655</x>
+     <y>21</y>
+     <width>0</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>490</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>1000</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="menu_">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pc">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>440</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bu">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>530</y>
+     <width>301</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="info_dia">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>110</y>
+     <width>181</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="infom">
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="back">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>100</y>
+     <width>201</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="slog_">
+   <property name="geometry">
+    <rect>
+     <x>387</x>
+     <y>12</y>
+     <width>281</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>back</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>exit</zorder>
+  <zorder>menu_</zorder>
+  <zorder>pc</zorder>
+  <zorder>bu</zorder>
+  <zorder>info_dia</zorder>
+  <zorder>slog_</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

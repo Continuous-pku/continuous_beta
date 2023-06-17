@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>policy</class>
+ <widget class="QWidget" name="policy">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#policy{
+	border-image: url(:/new/pics/resouce/Policy.png);
+}
+#cover1{
+	border-image: url(:/new/pics/resouce/policis/cover/keyancover.png);
+}
+#cover2{
+	border-image: url(:/new/pics/resouce/policis/cover/liudiaocover.png);
+}
+#cover3{
+	border-image: url(:/new/pics/resouce/policis/cover/shipincover.png);
+}
+#cover4{
+	border-image: url(:/new/pics/resouce/policis/cover/wangkecover.png);
+}
+#cover5{
+	border-image: url(:/new/pics/resouce/policis/cover/yuluncover.png);
+}
+#keyan{
+	border-image: url(:/new/pics/resouce/policis/keyanzhuanxiang.png);
+}
+#wangke{
+	border-image: url(:/new/pics/resouce/policis/kaishiwangke.png);
+}
+#shipin{
+	border-image: url(:/new/pics/resouce/policis/shipinhuiyi.png);
+}
+#liudiao{
+	border-image: url(:/new/pics/resouce/policis/kaishiliudiao.png);
+}
+#guankong{
+	border-image: url(:/new/pics/resouce/policis/guankongyulun.png);
+}
+#pf{
+	border-image: url(:/new/pics/resouce/policis/pfzhi.png);
+}
+#hesuan{
+	border-image: url(:/new/pics/resouce/policis/quanyuanhesuan.png);
+}
+#kaixue{
+	border-image: url(:/new/pics/resouce/policis/tuichikaixue.png);
+}
+#canguan{
+	border-image: url(:/new/pics/resouce/policis/zantingcanguan.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="cover1">
+   <property name="geometry">
+    <rect>
+     <x>167</x>
+     <y>170</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cover2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>170</y>
+     <width>111</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cover3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>170</y>
+     <width>261</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cover4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>251</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cover5">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>170</y>
+     <width>121</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="keyan">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>340</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shipin">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>340</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wangke">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>180</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="guankong">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>340</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="liudiao">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>340</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pf">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>80</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hesuan">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>380</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="canguan">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>380</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="kaixue">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>380</y>
+     <width>93</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>pf</zorder>
+  <zorder>wangke</zorder>
+  <zorder>cover1</zorder>
+  <zorder>cover2</zorder>
+  <zorder>cover3</zorder>
+  <zorder>cover4</zorder>
+  <zorder>cover5</zorder>
+  <zorder>keyan</zorder>
+  <zorder>shipin</zorder>
+  <zorder>guankong</zorder>
+  <zorder>liudiao</zorder>
+  <zorder>hesuan</zorder>
+  <zorder>canguan</zorder>
+  <zorder>kaixue</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
